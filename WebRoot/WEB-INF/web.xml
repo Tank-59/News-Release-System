@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Hot_Point_News</servlet-name>
+    <servlet-class>cn.qlu.servlet.Hot_Point_News</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Head_News</servlet-name>
+    <servlet-class>cn.qlu.servlet.Head_News</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>News_Select</servlet-name>
+    <servlet-class>cn.qlu.servlet.News_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>News_Search</servlet-name>
+    <servlet-class>cn.qlu.servlet.News_Search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>News_Review</servlet-name>
+    <servlet-class>cn.qlu.servlet.News_Review</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_Type_Add</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_Type_Add</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_Type_Delete</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_Type_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_Type_Update</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_Type_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_Type_Page</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_Type_Page</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_News_Add</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_News_Add</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_News_Select</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_News_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_News_Delete</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_News_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Back_News_Update</servlet-name>
+    <servlet-class>cn.qlu.servlet.Back_News_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login_Servlet</servlet-name>
+    <servlet-class>cn.qlu.servlet.Login_Servlet</servlet-class>
+  </servlet>
+<servlet>
+  <servlet-name>NewclassServlet</servlet-name>
+  <servlet-class>cn.qlu.servlet.NewclassServlet</servlet-class>
+</servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Hot_Point_News</servlet-name>
+    <url-pattern>/Hot_Point_News</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Head_News</servlet-name>
+    <url-pattern>/Head_News</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>News_Select</servlet-name>
+    <url-pattern>/News_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>News_Search</servlet-name>
+    <url-pattern>/News_Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>News_Review</servlet-name>
+    <url-pattern>/News_Review</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_Type_Add</servlet-name>
+    <url-pattern>/Back_Type_Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_Type_Delete</servlet-name>
+    <url-pattern>/Back_Type_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_Type_Update</servlet-name>
+    <url-pattern>/Back_Type_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_Type_Page</servlet-name>
+    <url-pattern>/Back_Type_Page</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_News_Add</servlet-name>
+    <url-pattern>/Back_News_Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_News_Select</servlet-name>
+    <url-pattern>/Back_News_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_News_Delete</servlet-name>
+    <url-pattern>/Back_News_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back_News_Update</servlet-name>
+    <url-pattern>/Back_News_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login_Servlet</servlet-name>
+    <url-pattern>/Login_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewclassServlet</servlet-name>
+    <url-pattern>/NewclassServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <filter>
+      <filter-name>NewsList</filter-name>
+      <filter-class>cn.qlu.filter.NewsList</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>NewsList</filter-name>
+    <url-pattern>/Manager/News/NewsList.jsp</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+      <filter-name>NewsAdd</filter-name>
+      <filter-class>cn.qlu.filter.NewsAdd</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>NewsAdd</filter-name>
+    <url-pattern>/Manager/News/NewsAdd.jsp</url-pattern>
+  </filter-mapping>
+  	
+  <filter>
+      <filter-name>NewsModify</filter-name>
+      <filter-class>cn.qlu.filter.NewsModify</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>NewsModify</filter-name>
+    <url-pattern>/Manager/News/NewsModify.jsp</url-pattern>
+  </filter-mapping>
+  	
+  	
+  	<filter>
+      <filter-name>CategoryModify</filter-name>
+      <filter-class>cn.qlu.filter.CategoryModify</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CategoryModify</filter-name>
+    <url-pattern>/Manager/News/CategoryModify.jsp</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+      <filter-name>CategoryList</filter-name>
+      <filter-class>cn.qlu.filter.CategoryList</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CategoryList</filter-name>
+    <url-pattern>/Manager/News/CategoryList.jsp</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+     <filter-name>Index</filter-name>
+     <filter-class>cn.qlu.filter.Index</filter-class>
+  </filter>
+  <filter-mapping>
+     <filter-name>Index</filter-name>
+     <url-pattern>/Index.jsp</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+      <filter-name>NewsHot</filter-name>
+      <filter-class>cn.qlu.filter.NewsHot</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>NewsHot</filter-name>
+    <url-pattern>/Index.jsp</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+      <filter-name>NewsHead</filter-name>
+      <filter-class>cn.qlu.filter.NewsHeadFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>NewsHead</filter-name>
+    <url-pattern>/Index.jsp</url-pattern>
+  </filter-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

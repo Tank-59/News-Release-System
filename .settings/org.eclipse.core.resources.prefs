@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/cn/qlu/dao/impl/Login_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/News_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/News_Head_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/News_Hot_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/News_Review_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/News_Search_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/News_Select_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/NewsheetDaoImpl.java=UTF-8
+encoding//src/cn/qlu/dao/impl/Type_Dao_Impl.java=UTF-8
+encoding//src/cn/qlu/filter/Index.java=UTF-8
+encoding/<project>=UTF-8
