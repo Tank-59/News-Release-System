@@ -79,9 +79,10 @@
 	</div>
 	<!--[if !IE]>main 结束<![endif]-->
 	<div id="footer">
-		<p>版权所有 &copy;<a href="http://www.sdili.edu.cn" target="_blank">齐鲁工业大学-曹艳奇 </a></p>
+		<p>版权所有 &copy;<a href="http://www.sdili.edu.cn" target="_blank">QLUTech-tank59 </a></p>
 	</div>
 	<!--[if !IE]>main 结束<![endif]-->
+<!-- caoyanqi15@126.com	 -->
 </div>
 </body>
 </html>
